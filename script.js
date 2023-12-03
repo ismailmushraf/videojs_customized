@@ -2,7 +2,7 @@
 const segments = [
     // start defined in Seconds. 
     { start: 0, end: 60, title: 'Intro' },
-    { start: 62, end: 120, title: 'HTML' },
+    { start: 60, end: 120, title: 'HTML' },
     { start: 120, end: 180, title: 'CSS' },
     { start: 180, end: 210, title: 'JavaScript' }
 ];

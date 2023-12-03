@@ -23,8 +23,14 @@
     position: absolute;
     background-color: transparent;
     top: -13px;
+    /* top: -3px; */
     height: 30px;
     z-index: 100;
+}
+
+.vjs-segment-overlay:hover {
+    background-color: antiquewhite;
+    opacity: 0.2;
 }
 
 .vjs-segment-title-show {
