@@ -1,0 +1,70 @@
+.vjs-segment-marker {
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background-color: black;
+    z-index: 20;
+}
+
+.vjs-segment-title {
+    position: absolute;
+    top: -55px;
+    height: auto;
+    width: auto;
+    padding: 4px;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    visibility: hidden;
+    border-radius: 10%;
+}
+
+.vjs-segment-overlay {
+    position: absolute;
+    background-color: transparent;
+    top: -13px;
+    height: 30px;
+    z-index: 100;
+}
+
+.vjs-segment-title-show {
+    visibility: visible;
+}
+
+.checkpoints-sidebar {
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    background: transparent;
+    z-index: 101;
+    display: none;
+    overflow: auto;
+}
+
+.checkpoints-sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.checkpoint-card {
+    top: 0;
+    width: auto;
+    height: auto;
+    background-color: darkgray;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+    z-index: 102 !important;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#checkpointsIcon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    z-index: 103;
+    cursor: pointer;
+}
